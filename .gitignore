@@ -4,11 +4,7 @@
 !.vscode/task.json
 !.vscode/extensions.json
 
-*.jpg
-*.png
-img/
 
-*.mp4
 
 *.log
 
