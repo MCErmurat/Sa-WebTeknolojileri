@@ -1,14 +1,16 @@
 <h1>Veriler Geldi</h1>
+<!-- Php'de html kodları çalışır -->
 
 <?php
 $x="işlenmeye hazir";
+// değişken $ ile başlar
 echo "<b> ".$x." </b><br>";
-$y=$_POST["ad"];
-
-echo "Ad: ".$y;
+//$y=$_POST["ad"];
+//post tan gelen datayı y değişkenine atar
+//echo "Ad: ".$y;
 ?>
 <?php
-    if (empty ($_POST["ad"])){
+    if (empty ($_POST["ad"] && $_POST["soyad"])){
         echo "<h1>Lütfen Ad Datasini Giriniz </h1>";
     }
     else{

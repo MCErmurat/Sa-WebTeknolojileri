@@ -8,20 +8,24 @@
     </head>
     
     <body>
-        <form action="veriAl.php" method="post"> <!--input girdi almamizi saglar-->
-            <table>
-                <tr>
+        <form action="veriAl.php" method="post"> 
+            <!-- method post olursa url'de gönderilen datalar gözükmez  -->
+            <table border="0">
+                <tr >
                     <td>Ad:</td>
-                    <td><input type="text" name="ad" required placeholder="Buraya Adinizi Giriniz"></td>
+                    <td><input type="text" name="ad" required placeholder="Buraya Adinizi Giriniz"></td> <!--input girdi almamizi saglar-->
                 </tr>
+
                 <tr>
                     <td>Soyad:</td>
-                    <td><input type="text" name="soyad"></td>
+                    <td><input type="text" name="soyad" required placeholder="Buraya Soyadinizi Giriniz"></td>
                 </tr>
+
                 <tr>
                     <td>Şifre</td>
-                    <td><input type="password" name="sifre"></td>
+                    <td><input type="password" name="sifre" required placeholder="Buraya Sifrenizi Giriniz"></td>
                 </tr>
+
                 <tr>
                     <td colspan="2"><input type="submit"  value="Formu Gönder"></td> // <!--form actionda yazdigimiz adrese verileri gonderir-->
                     
