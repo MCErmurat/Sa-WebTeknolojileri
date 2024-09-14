@@ -10,7 +10,7 @@ echo "<b> ".$x." </b><br>";
 //echo "Ad: ".$y;
 ?>
 <?php
-    if (empty ($_POST["ad"] && $_POST["soyad"])){
+    if (empty ($_POST["ad"] || $_POST["soyad"])){
         echo "<h1>Lütfen Ad Datasini Giriniz </h1>";
     }
     else{
