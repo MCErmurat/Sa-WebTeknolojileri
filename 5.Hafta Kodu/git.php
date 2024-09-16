@@ -1,6 +1,6 @@
 <?php
 echo"<pre>";
-    print_r($_POST);
+    print_r(value: $_POST);
 
     $i=1;
 
@@ -16,7 +16,7 @@ echo"<pre>";
         4 => "Beşiktaş"
     );
 
-    for($i=0; $i<count($_POST["sport"]); $i++){
+    for($i=0; $i<count(value: $_POST["sport"]); $i++){
         echo $_POST["sport"][$i] . "--------";
         echo $arrSport[$_POST["sport"][$i]];
         echo "<br>";
