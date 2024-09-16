@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="git.php" method="post">
+        Futbol<input type="checkbox" name="sport[]" value="1"><br>
+        Basketbol<input type="checkbox" name="sport[]" value="2"><br>
+        Voleybol<input type="checkbox" name="sport[]" value="3"><br>
+
+        Sakaryaspor<input type="radio" name="takim" value="1">
+        Galatasaray<input type="radio" name="takim" value="2">
+        Fenerbahçe<input type="radio" name="takim" value="3">
+        Beşiktaş<input type="radio" name="takim" value="4"><br>
+        <label for="tkm">Diğer</label> <input type="text" name="takim2" id="tkm" autofocus><br>
+        Yaşadığınız İl <select name="iller">
+            <option value="54">Sakarya</option>
+            <option value="34">İstanbul</option>
+            <option value="16">Bursa</option>
+        </select><br>
+        Adres<textarea name="adres" cols="30" rows="10">SAU</textarea>
+        <input type="button" value="Bu bir buton">
+        <input type="submit" value="Gönder">
+    </form>
+</body>
+</html>
